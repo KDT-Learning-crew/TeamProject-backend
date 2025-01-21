@@ -12,6 +12,7 @@ myPageNickBtn.addEventListener("click", () => {
 	if (newNick == "" || newNick == null) {
 		console.log("프롬프트 false");
 	} else {
+		console.log("닉 : " + newNick);
 		const formNick = document.createElement("form");
 		const formData = document.createElement("input");
 		formNick.action = contextPath + "/changeNickName.my";
@@ -25,11 +26,11 @@ myPageNickBtn.addEventListener("click", () => {
 });
 
 myPagePwBtn.addEventListener("click", () => {
-	window.location.href = contextPath + "/app/user/findPass/findPass1.jsp";
+	window.location.href = "../login/findPass2.html";
 });
 
 myPageTearBtn.addEventListener("click", () => {
-	alert("티어를 변경합니다");
+	alert("티어 변경이 완료되었습니다");
 });
 
 myPagePhoneBtn.addEventListener("click", () => {

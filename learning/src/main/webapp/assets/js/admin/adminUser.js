@@ -132,3 +132,17 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 });
+
+// 엔터로 검색하기
+function enterkey(){
+   if(window.event.keyCode == 13){
+      Search();
+   }
+}
+
+
+
+
+
+
+

@@ -75,12 +75,12 @@ public class UserFrontController extends HttpServlet {
 			
 		case "/nicknameCheck.us":
 			System.out.println("닉네임 중복 검사");
-			new NicknameCheckController().execute(request, response);
+//			new NicknameCheckController().execute(request, response);
 			break;
 
 		case "/idCheck.us":
 			System.out.println("아이디 중복 검사");
-			new IdCheckController().execute(request, response);
+//			new IdCheckController().execute(request, response);
 			break;
 
 //		case "/phoneCheck.us":
@@ -89,13 +89,7 @@ public class UserFrontController extends HttpServlet {
 //			break;	
 
 		case "/findPass1.us":
-			System.out.println("findPass1");
-			result = new FindPass1Controller().execute(request, response);
-			break;
-			
-		case "/findPass2.us":
-			System.out.println("findPass2");
-			result = new FindPass2Controller().execute(request, response);
+			System.out.println("findPassOk");
 			break;
 
 		default:

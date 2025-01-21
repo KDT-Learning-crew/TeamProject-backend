@@ -66,7 +66,7 @@
   const pageSize = 10;
   const pageItems = 3;
   const pageCount = Math.ceil(pageItems / pageSize);
-  const pageType = '모집';
+  const pageType = '신청';
   let current = 1;
 </script>
 

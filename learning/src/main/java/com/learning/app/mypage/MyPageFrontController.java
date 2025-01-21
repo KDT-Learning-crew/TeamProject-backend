@@ -1,12 +1,12 @@
 package com.learning.app.mypage;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import com.learning.app.Result;
 import com.learning.app.dto.UserDTO;
@@ -65,7 +65,7 @@ public class MyPageFrontController extends HttpServlet {
 
 		case "/changeNickName.my":
 			System.out.println("닉네임 변경");
-			result = new MyPageNickName().execute(request, response);
+//			result = new MyPageNickName().execute(request, response);
 			break;
 
 		case "/changeTier.my":
